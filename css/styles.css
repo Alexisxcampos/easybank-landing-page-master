@@ -1,0 +1,25 @@
+/*
+Author: Alexis Campos
+Date: 04/03/2023
+File name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rules for mobile viewport */
+
+/* Style rule for header */
+
+.mobile-nav {
+    background-color: #ffff;
+    display: block;
+}
+
+#menu-links{
+    text-align: right;
+}

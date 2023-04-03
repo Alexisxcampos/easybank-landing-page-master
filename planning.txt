@@ -1,0 +1,47 @@
+Header
+    logo
+    hamburger menu to the right
+
+Img
+
+Section
+    blends with IMG above
+    h1
+    p
+    button link (gradient)
+    
+Section
+    h1
+    p1
+    
+    icon
+    h2
+    p1
+
+    icon
+    h2
+    p1
+
+    icon
+    h2
+    p1
+
+    icon
+    h2
+    p1
+
+Section
+    h1
+
+    Img
+        p1
+        h2      x4
+        p1
+
+Footer
+    logo
+    Socials Icons x x x x x
+    UL Links
+    Button link (gradient)
+
+
