@@ -4,6 +4,8 @@ Date: 04/03/2023
 File name: styles.css
 */
 
+*{font-family: "Public Sans", serif}
+
 /* CSS Reset */
 body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, article, aside, audio, video {
     margin: 0;
@@ -13,41 +15,102 @@ body, header, nav, main, footer, h1, div, img, ul, figure, figcaption, section, 
 
 /* Style rules for mobile viewport */
 
-/* Style rule for header */
-header {
-    top: 0px;
-    height: 50px;
-    position: fixed;
-    background-color: #ffff;
-    width: 100%;
-}
+    /* Style rule for header */
+    header {
+        top: 0px;
+        height: 50px;
+        padding-top: 1.5%;
+        padding-bottom: 1.5%; 
+        position: fixed;
+        background-color: #ffff;
+        width: 100%;
+        z-index: 999;
+    }
 
-header img {
-    margin: 0 auto; 
-    margin-left: 15px;
-    margin-top: 15px;
-}
+    header img {
+        margin: 0 auto; 
+        margin-left: 15px;
+        margin-top: 15px;
+    }
 
-#menu-links {
-    text-align: right;
-}
+    #menu-links {
+        text-align: right;
+    }
 
-/*everything else lol*/
-#phones {
-    display: grid;
-}
-#phones img {
-    max-width: 375px;
-    grid-column: 1;
-    grid-row: 1; 
-}
+    /*everything else lol*/
 
-#background {
-    margin-top: 30px;
-    height: 100%;
-}
+    #phones {
+        position: relative;
+        height: 400px; /* set the height to the desired value */
+        overflow: hidden; /* to hide overflowing content */
+      }
+      
+    #background {
+        position: absolute;
+        bottom: -20px;
+        z-index: 1; /* set a higher z-index than the top image */
+        width: 100%;
+      }
+      
+    #front {
+        position: absolute;
+        bottom: 40px;
+        z-index: 2; /* set a lower z-index than the background image */
+        width: 100%;
+      }
 
-#front {
-    margin-top: 20px;
-}
+    .request {
+        display: inline-block; 
+        width: 50%;
+        padding: 16px 32px;
+        border-radius: 45px;
+        background-image: linear-gradient(to right, #31d35c, #00d192, #00cbbb, #00c2d4, #2bb7da);
+        border: none; 
+        color: white; 
+        font-size: 15px;
+        font-weight: 800; 
+    }
 
+    #invitebutton {
+        padding-top: 20px; 
+        padding-bottom: 65px;
+    }
+
+    #centered {
+        margin-top:auto;
+        margin-bottom:auto;
+        text-align:center;
+    }
+
+    .first {
+        font-size: 40px;
+    }
+
+    #easyparagraphs {
+        background-color: #fafafa;
+    }
+
+    .second {
+        padding-top: 50px;
+    }
+
+    .p2 {
+        padding-bottom: 50px; 
+    }
+
+    .icon {
+        padding-top: 40px;
+        padding-bottom: 3px;
+    }
+
+    .smallh {
+        padding-top: 15px;
+    }
+
+    .lastsmallp {
+        padding-bottom: 40px;
+    }
+
+    .latest {
+        padding-top: 70px;
+    }
